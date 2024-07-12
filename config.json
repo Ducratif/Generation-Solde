@@ -6,7 +6,10 @@
     "channel_gen": "CHANNEL_GEN_ID",
 
     "api_key_user": "CLE_API_DUCRAGEN",
-    
+
+    "plan": "1",
+    "_comment1": "Free: 1 | Basique: 2 | Standard: 3 | Premium: 4",
+
     "url_api": "https://api.ducragen.com/",
     "_comment": "NE PAS TOUCHER A L'URL DE L'API"
     

@@ -1,6 +1,6 @@
 const { SlashCommandBuilder, ActionRowBuilder, StringSelectMenuBuilder, EmbedBuilder } = require('discord.js');
 const axios = require('axios');
-const { channel_gen, api_key_user, url_api } = require('../config.json');
+const { channel_gen, api_key_user, url_api, plan } = require('../config.json');
 
 
 let userProcessing = new Set();
@@ -33,7 +33,16 @@ module.exports = {
             {
                 if (dataa.success)
                 {
-                    const services = dataa.Free;
+                    if(plan == "1"){var services = dataa.Free;}
+                    else
+                    if(plan == "2"){var services = dataa.Basique;}
+                    else
+                    if(plan == "3"){var services = dataa.Standard;}
+                    else
+                    if(plan == "4"){var services = dataa.Premium;}
+                    else
+                    {return interaction.reply({content: "Aucun plan selectionner dans le fichier config !"});}
+                    
     
                     const selectMenu = new StringSelectMenuBuilder()
                         .setCustomId('select_service')
