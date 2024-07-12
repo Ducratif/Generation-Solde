@@ -1,0 +1,24 @@
+{
+  "name": "ducragenerator",
+  "version": "1.0.0",
+  "description": "Bot Discord Generateur en francais par Ducratif",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "bot",
+    "discord",
+    "genenateur",
+    "francais",
+    "ducratif"
+  ],
+  "author": "ducratif",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/builders": "^1.8.2",
+    "@discordjs/rest": "^2.3.0",
+    "axios": "^1.7.2",
+    "discord.js": "^14.15.3"
+    }
+}

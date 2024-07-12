@@ -1,0 +1,13 @@
+{
+    "token": "TOKEN_BOT",
+    "serverid": "SERVEUR_ID",
+    "botid": "ID_BOT",
+
+    "channel_gen": "CHANNEL_GEN_ID",
+
+    "api_key_user": "CLE_API_DUCRAGEN",
+    
+    "url_api": "https://api.ducragen.com/",
+    "_comment": "NE PAS TOUCHER A L'URL DE L'API"
+    
+  }
