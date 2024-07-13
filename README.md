@@ -9,6 +9,7 @@ Utilisation facile de notre API. Cette documentation vous permez de facilement i
 
 
 Voici le lien de l'api à utiliser: https://api.ducragen.com
+Documentation pour setup le Bot Discord: https://docs.ducragen.com/api-ducragen/bot-discord/generation-solde
 
 
 
